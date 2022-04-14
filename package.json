@@ -6,6 +6,7 @@
   "scripts": {
     "1": "node ./task_1",
     "2": "node ./task_2",
+    "3": "node ./task_3",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
