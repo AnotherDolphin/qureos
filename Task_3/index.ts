@@ -8,11 +8,6 @@ const rl = readline.createInterface({
 
 const apiUrl = 'https://jsonmock.hackerrank.com/api/stocks?date=5-January-2000'
 
-const monthNames = [
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-];
-
 const askForDate = (): Promise<string> => {
     return new Promise(res => rl.question('Enter a date\n', (answer: string) => {
         rl.close()
@@ -45,9 +40,3 @@ const input = await askForDate()
 const output = await queryDate(input)
 if(output) console.log(output);
 else console.log('No result for that Date')
-
-
-
-
-
-
