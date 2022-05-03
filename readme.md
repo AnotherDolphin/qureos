@@ -1,7 +1,4 @@
 # Qereos Challenge 
-## Full Stack Engineer Application
-
-All tasks are written in Node using Typscript
 
 used npm packages:
 - `readline` for user input
